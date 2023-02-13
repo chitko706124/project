@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+//bootdtrap customize
+$navbar-nav-link-padding-x: 1.5rem;
+$font-size-base: 0.9rem;
+$font-family-sans-serif: "Poppins", sans-serif;
+// $display-font-family: "Lora", serif;
+// $headings-font-family: "Dancing Script", cursive;
+
+$body-bg: hsl(19, 100%, 96%);
+$body-color: hsl(19, 16%, 35%);
+$primary: hsl(19, 64%, 54%);
+// $light: hsl(19, 8%, 55%);
+
+$btn-border-radius: 2rem;
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.5rem;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+);
+
+// $h1-font-size: 1.5rem;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/animate.css/animate.min.css";
+@import "../node_modules/remixicon/fonts/remixicon.css";
+
+.title {
+  font-family: "Lora", serif;
+  color: hsl(19, 16%, 15%);
+}
+
+.sub-title {
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  height: 3000px;
+}
+
+//custom css
+.navbar-brand-logo {
+  height: 1.5rem;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+  color: white;
+}
+
+.btn-icon i {
+  font-size: 20px;
+  vertical-align: middle;
+  padding-left: 9px;
+}
+
+nav {
+  background: $body-bg;
+}
+.home-title img {
+  width: 50px;
+  height: 50px;
+}
+
+#home {
+  position: relative;
+}
+
+#home::before {
+  content: url(../img/leaf-branch-2.png);
+  opacity: 0.2;
+  transform: translateX(-50px) rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}
+
+#home::after {
+  content: url(../img/leaf-branch-4.png);
+  opacity: 0.2;
+  transform: translateX(105px);
+  position: absolute;
+  bottom: 180px;
+  right: 0;
+  z-index: -1;
+}
+.speacer-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dish-card {
+  background-color: hsl(19, 100%, 97%);
+}
+
+.dish-card img {
+  transform: translateY(-40px);
+  transition: 0.5s;
+}
+
+.dish-card:hover {
+  img {
+    transform: translateY(-50px);
+  }
+}
+
+.leave img {
+  width: 23px;
+  height: 50px;
+  transform: rotate(45deg) translateX(10px);
+}
+
+.bc-color {
+  background-color: hsl(19, 16%, 15%);
+}
+
+.newsletter {
+  border-radius: 2.5rem;
+}
+
+@include media-breakpoint-down(md) {
+  .newsletter {
+    border-radius: 0;
+  }
+}

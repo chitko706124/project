@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-journals brand-logo"></i>
+        </a>
+        <div class="input-group w-25 me-auto">
+          <span class="input-group-text">
+            <i class="bi bi-search"></i>
+          </span>
+          <input type="text" placeholder="Search" class="form-control" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="height: 40px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-pencil-square"></i>Write
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"> Sign In </a>
+            </li>
+            <li class="nav-item bg-success text-white rounded-pill">
+              <a class="nav-link px-3 py-2" href="register.html"> Sign Up </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="./img/user.png"
+                  height="35"
+                  class="border rounded-circle"
+                  alt=""
+                />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="blog">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-md-8">
+              <div class="banner my-5">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="bg-secondary px-2 py-1 me-2 rounded-circle">
+                    <i class="bi bi-tag-fill"></i>
+                  </div>
+                  <h1 class="fw-bold">Promming</h1>
+                </div>
+                <div class="">
+                  <button class="btn btn-sm me-2 btn-success">Follow</button>
+                  <button class="btn btn-sm btn-outline-success">Follow</button>
+                </div>
+              </div>
+              <div class="articles">
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="detail.html"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a
+                          href="detail.html"
+                          class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+                <hr />
+                <article>
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      class="rounded-circle me-3"
+                      height="30"
+                      src="https://miro.medium.com/fit/c/24/24/1*u1fIimNUZYYtZsvYJzkaTA.png"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="text-decoration-none text-dark small me-3"
+                      >Mohamed Aboelez
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex flex-column h-100">
+                        <a
+                          href="#"
+                          class="h4 d-block text-decoration-none fw-bold text-dark"
+                          >Stress makes programmers dumber</a
+                        >
+                        <a href="#" class="text-decoration-none text-black para"
+                          >Stress stops your brain from producing new neurons.
+                          That’s the hypothesis put forth by Alan G. Carter in a
+                          brilliant web series found at “The Programmer’s
+                          Stone”. It begins as a critical examination of the</a
+                        >
+                        <div
+                          class="d-flex align-items-center justify-content-between mt-lg-auto"
+                        >
+                          <div class="">
+                            <a href="#" class="btn btn-secondary me-2 btn-sm"
+                              >Programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        class="w-100"
+                        src="https://miro.medium.com/fit/c/112/112/0*S_1kGSqpaBAGOGkQ"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="my-4">
+                <div class="row">
+                  <div class="col-6">
+                    <h4 class="fw-bold">128k</h4>
+                    <p>Stories</p>
+                  </div>
+                  <div class="col-6">
+                    <h4 class="fw-bold">92k</h4>
+                    <p>Writers</p>
+                  </div>
+                </div>
+                <div class="users">
+                  <img
+                    alt="Abaysew Tekle"
+                    src="https://miro.medium.com/fit/c/36/36/1*I_Od6XR9zxLVwGJVTWgmUQ.jpeg"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Anurag Aravind Gharat"
+                    src="https://miro.medium.com/fit/c/36/36/1*jJl5xfnGUJIt07CR3AqETA.jpeg"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Sagar Bawane"
+                    src="https://miro.medium.com/fit/c/36/36/0*xvGWpEW2lMaPlCck"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Ryan Flynn (Falcon)"
+                    src="https://miro.medium.com/fit/c/36/36/0*uh8smeI4QImxN8IY"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Ambrose Liew"
+                    src="https://miro.medium.com/fit/c/36/36/0*cEsF9QoYirYUgo9A"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Rafeh Waqar"
+                    src="https://miro.medium.com/fit/c/36/36/0*4YoX3q3bjWh9Of4Z"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Coding Beauty"
+                    src="https://miro.medium.com/fit/c/36/36/1*jFPR29b3e5ldOOJ_hWY3cQ.png"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="Noah"
+                    src="https://miro.medium.com/fit/c/36/36/1*SON5ddYxH8Wru-hrubxkuA.png"
+                    width="36"
+                    height="36"
+                  />
+
+                  <img
+                    alt="AIT ABDELLAH Leila"
+                    src="https://miro.medium.com/fit/c/36/36/1*-2rxSADfM9MTMphqbvxEVA.png"
+                    width="36"
+                    height="36"
+                  />
+                </div>
+              </div>
+              <hr />
+              <div class="position-sticky" style="top: 30px">
+                <div class="topic mb-5">
+                  <p class="fw-bold mt-5 mb-3">Related Topics</p>
+                  <div class="">
+                    <a href="#" class="btn btn-secondary mb-2">Java Script</a>
+                    <a href="#" class="btn btn-secondary mb-2">CSS</a>
+                    <a href="#" class="btn btn-secondary mb-2">Reactt</a>
+                    <a href="#" class="btn btn-secondary mb-2">Programming</a>
+                    <a href="#" class="btn btn-secondary mb-2">Web Design</a>
+                    <a href="#" class="btn btn-secondary mb-2"
+                      >Software Development</a
+                    >
+                    <a href="#" class="btn btn-secondary mb-2">Technology</a>
+                    <a href="#" class="btn btn-secondary mb-2">Coding</a>
+                    <a href="#" class="btn btn-secondary mb-2"
+                      >Front End Development</a
+                    >
+                  </div>
+                </div>
+                <div class="top-writers mb-5">
+                  <p class="fw-bold mt-5 mb-3">Top Writers</p>
+                  <div class="row writer mb-3 g-3">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle"
+                        height="32px"
+                        width="32px"
+                        src="https://miro.medium.com/fit/c/32/32/1*gOZB0_zGrIvTLT20MtP6uA.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-7">
+                      <p class="fw-bold small mb-0">Fernando Doglio</p>
+                      <p class="small text-truncate">
+                        "I write about technology, freelancing and more. Check
+                        out my FREE newsletter if you’re into Software
+                        Development: https://fernandodoglio.substack.com/"
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="btn btn-sm btn-success">Follow</a>
+                    </div>
+                  </div>
+                  <div class="row writer mb-3 g-3">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle"
+                        height="32px"
+                        width="32px"
+                        src="https://miro.medium.com/fit/c/32/32/1*gOZB0_zGrIvTLT20MtP6uA.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-7">
+                      <p class="fw-bold small mb-0">Fernando Doglio</p>
+                      <p class="small text-truncate">
+                        "I write about technology, freelancing and more. Check
+                        out my FREE newsletter if you’re into Software
+                        Development: https://fernandodoglio.substack.com/"
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="btn btn-sm btn-success">Follow</a>
+                    </div>
+                  </div>
+                  <div class="row writer mb-3 g-3">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle"
+                        height="32px"
+                        width="32px"
+                        src="https://miro.medium.com/fit/c/32/32/1*gOZB0_zGrIvTLT20MtP6uA.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-7">
+                      <p class="fw-bold small mb-0">Fernando Doglio</p>
+                      <p class="small text-truncate">
+                        "I write about technology, freelancing and more. Check
+                        out my FREE newsletter if you’re into Software
+                        Development: https://fernandodoglio.substack.com/"
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="btn btn-sm btn-success">Follow</a>
+                    </div>
+                  </div>
+                  <div class="row writer mb-3 g-3">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle"
+                        height="32px"
+                        width="32px"
+                        src="https://miro.medium.com/fit/c/32/32/1*gOZB0_zGrIvTLT20MtP6uA.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-7">
+                      <p class="fw-bold small mb-0">Fernando Doglio</p>
+                      <p class="small text-truncate">
+                        "I write about technology, freelancing and more. Check
+                        out my FREE newsletter if you’re into Software
+                        Development: https://fernandodoglio.substack.com/"
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="btn btn-sm btn-success">Follow</a>
+                    </div>
+                  </div>
+                  <div class="row writer mb-3 g-3">
+                    <div class="col-2">
+                      <img
+                        class="rounded-circle"
+                        height="32px"
+                        width="32px"
+                        src="https://miro.medium.com/fit/c/32/32/1*gOZB0_zGrIvTLT20MtP6uA.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-7">
+                      <p class="fw-bold small mb-0">Fernando Doglio</p>
+                      <p class="small text-truncate">
+                        "I write about technology, freelancing and more. Check
+                        out my FREE newsletter if you’re into Software
+                        Development: https://fernandodoglio.substack.com/"
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <a href="#" class="btn btn-sm btn-success">Follow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <p class="text-decoration-none text-black-50">
+                    Visit the archive
+                  </p>
+                  <div class="">
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Help
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Status
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Writers
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Blog
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Careers
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Privacy
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      Terms
+                    </a>
+                    <a
+                      href="#"
+                      class="me-2 text-decoration-none text-black-50 small"
+                    >
+                      About
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
